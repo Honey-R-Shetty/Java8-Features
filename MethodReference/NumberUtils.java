@@ -1,4 +1,4 @@
-package LambdaExpression;
+package MethodReference;
 
 public class NumberUtils {
 	static boolean isEven(int a) {

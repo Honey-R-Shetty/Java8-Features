@@ -1,4 +1,4 @@
-package LambdaExpression;
+package MethodReference;
 
 import java.util.function.Predicate;
 
