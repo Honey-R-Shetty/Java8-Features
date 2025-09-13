@@ -29,7 +29,7 @@ public class MovieRatings {
 	        .limit(3)
 	        .forEach(System.out::println);
 	        
-	        // At least one Comedy?
+	        // At least one Comedy
 	        Boolean isPresent = movies.stream().anyMatch(m -> m.getGenre().equalsIgnoreCase("comedy"));
 	        System.out.println("\nIs there at least one Comedy movie? "+isPresent);
 	        
