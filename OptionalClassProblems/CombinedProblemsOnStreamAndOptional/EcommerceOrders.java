@@ -37,7 +37,6 @@ public class EcommerceOrders {
 				.collect(Collectors.toSet());
 		System.out.println("\nAll unique order statuses : ");
 		System.out.println(uniqueStatus);
-		
 				
 	}
 }
